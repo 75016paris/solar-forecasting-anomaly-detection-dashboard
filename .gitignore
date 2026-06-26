@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+
+# Local secrets
+.env
+.env.*
+
+# Private/raw data not for publication
+hidden_data/
+OLD/
+local_data/
+raw_data/
+private_data/
+clean/
+AGENTS.md
+context.md
+context/
+
+# Generated outputs
+output/
+exports/
+*.log
+
+# OS/editor
+.DS_Store
+.vscode/
+.idea/
+
+!.env.example

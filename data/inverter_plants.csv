@@ -1,0 +1,6 @@
+plant_id,plant_name,plant_address,plant_type,plant_capacity,system_type,inverter_provider,status
+900001,Plant A,Gazipur,Rooftop PV,269.28,Grid-tied,Generic inverter,active
+900002,Plant B,Gazipur,Rooftop PV,522.72,Grid-tied,Generic inverter,active
+900003,Plant C,Gazipur,Rooftop PV,227.04,Grid-tied,Generic inverter,active
+900004,Plant D,Gazipur,Rooftop PV,525.36,Grid-tied,Generic inverter,active
+900005,Plant E,Gazipur,Rooftop PV,285.12,Grid-tied,Generic inverter,active
