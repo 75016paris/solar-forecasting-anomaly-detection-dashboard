@@ -73,7 +73,7 @@ Local restoration helpers that reference private source paths are intentionally 
 Useful smoke checks:
 
 ```bash
-python3 -m compileall app_solar_monitoring_enhanced.py src train_model.py train_all_models.py build_clean_dataset.py capture_dashboard_screenshots.py
+python3 -m compileall app_solar_monitoring_enhanced.py src train_model.py train_all_models.py build_clean_dataset.py
 python3 build_clean_dataset.py
 streamlit run app_solar_monitoring_enhanced.py --server.headless true --server.port 8505
 curl http://localhost:8505/_stcore/health
@@ -87,28 +87,27 @@ ok
 
 ## Screenshots
 
-Generated screenshots are stored in `docs/screenshots/`:
+Screenshots below use the name-redacted local demo data included in this repository.
 
-- `executive-summary.png`
-- `data-sources-quality.png`
-- `plant-e-data-quality.png`
-- `modeling-notes.png`
+![Solar forecasting dashboard executive summary](docs/screenshots/executive-summary.png)
+
+![Solar dashboard forecast outlook and production trend](docs/screenshots/forecast-outlook.png)
+
+![Solar dashboard recent production performance](docs/screenshots/production-performance.png)
 
 ## Repository structure
 
 ```text
 app_solar_monitoring_enhanced.py  Streamlit dashboard
 build_clean_dataset.py            generate cleaned clean/*.csv files
-capture_dashboard_screenshots.py  capture Streamlit screenshots with headless Chrome
 src/                              modular data/model/forecasting utilities
 data/                             name-redacted plant metadata + generation/reference data
 open_data/                        local weather history used by the app
 models/                           saved model artifacts and metrics
-docs/screenshots/                 captured dashboard screenshots
+docs/screenshots/                 dashboard screenshots
 train_model.py                    train one default plant model
 train_all_models.py               train all configured plant models
 DATA_SCHEMA.md                    data schema notes
-TODO.md                           backlog
 ```
 
 ## Data and privacy status

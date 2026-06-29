@@ -117,7 +117,7 @@ def main():
     print("\nNext steps:")
     print("  1. Check models/ folder for saved models")
     print("  2. Run: streamlit run app_solar_monitoring_enhanced.py")
-    print("  3. See src/README.md for more usage examples")
+    print("  3. See README.md for local run and verification commands")
     print("="*80)
 
 
