@@ -6,6 +6,16 @@ This portfolio version uses project-shaped CSV values with company/client names,
 
 > Privacy note: this is **name-redacted operational-style data**, not fully synthetic data. It is included only to demonstrate the forecasting/anomaly-detection workflow.
 
+## Screenshots
+
+Screenshots below use the name-redacted local demo data included in this repository.
+
+![Solar forecasting dashboard executive summary](docs/screenshots/executive-summary.png)
+
+![Solar dashboard forecast outlook and production trend](docs/screenshots/forecast-outlook.png)
+
+![Solar dashboard recent production performance](docs/screenshots/production-performance.png)
+
 ## What it demonstrates
 
 - Python data workflow with pandas and NumPy.
@@ -84,16 +94,6 @@ Expected health result:
 ```text
 ok
 ```
-
-## Screenshots
-
-Screenshots below use the name-redacted local demo data included in this repository.
-
-![Solar forecasting dashboard executive summary](docs/screenshots/executive-summary.png)
-
-![Solar dashboard forecast outlook and production trend](docs/screenshots/forecast-outlook.png)
-
-![Solar dashboard recent production performance](docs/screenshots/production-performance.png)
 
 ## Repository structure
 
